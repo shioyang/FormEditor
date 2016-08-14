@@ -1,2 +1,7 @@
 node_modules/*
+typings/*
+*.swp
 *.log
+
+app/*.js
+app/*.js.map
