@@ -1,7 +1,6 @@
-node_modules/*
-typings/*
+node_modules
+typings
+dist
+
 *.swp
 *.log
-
-app/*.js
-app/*.js.map
