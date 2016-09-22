@@ -1,12 +1,14 @@
 <div class="feList">
   <table>
     <thead>
-      <tr><th>ID</th><th>Name</th></tr>
+      <tr><th>ID</th><th>Name</th><th>Age</th></tr>
     </thead>
     <tbody>
-      <tr><td>#001</td><td>Taro</td></tr>
-      <tr><td>#002</td><td>Hana</td></tr>
-      <tr><td>#003</td><td>Saki</td></tr>
+      <tr *ngFor="let d of formData">
+        <td>{{d.id}}</td>
+        <td>{{d.name}}</td>
+        <td>{{d.age}}</td>
+      </tr>
     </tbody>
   </table>
 </div>
