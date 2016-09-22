@@ -4,7 +4,7 @@
       <tr><th>ID</th><th>Name</th><th>Age</th></tr>
     </thead>
     <tbody>
-      <tr *ngFor="let d of formData">
+      <tr *ngFor="let d of formData" (click)="onSelect(d)" [class.selected]="d === selectedData">
         <td>{{d.id}}</td>
         <td>{{d.name}}</td>
         <td>{{d.age}}</td>

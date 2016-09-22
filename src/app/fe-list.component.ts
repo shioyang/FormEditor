@@ -14,6 +14,7 @@ import '../../public/css/styles.css';
 export class FeListComponent implements OnInit {
   formData: FormData[];
   formDataService: FormDataService;
+  selectedData: FormData = null;
 
   constructor(private fds: FormDataService){
     this.formDataService = fds;
@@ -25,5 +26,9 @@ export class FeListComponent implements OnInit {
 
   getData(): void {
     this.formData = this.formDataService.getAllData();
+  }
+
+  onSelect(d: FormData): void {
+    this.selectedData = d;
   }
 }
