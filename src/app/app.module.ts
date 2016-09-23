@@ -6,16 +6,21 @@ import { FormComponent } from './model/form.component';
 
 import { FeToolbarComponent } from './fe-toolbar.component';
 import { FeListComponent } from './fe-list.component';
+import { NewFormComponent } from './newForm.component';
+
+import { routing } from './app.routing';
 
 @NgModule({
   imports: [
-    BrowserModule
+    BrowserModule,
+    routing
   ],
   declarations: [
     AppComponent,
     FormComponent,
     FeToolbarComponent,
-    FeListComponent
+    FeListComponent,
+    NewFormComponent
   ],
   bootstrap: [ AppComponent ]
 })

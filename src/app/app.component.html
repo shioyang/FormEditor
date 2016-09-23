@@ -3,6 +3,7 @@
   <img src="../../public/images/angular.png">
   <fe-toolbar (emitter)="onAction($event)"></fe-toolbar>
   <fe-list></fe-list>
-  <div>{{action}}
-  </div>
+  <div>{{action}}</div>
+  <a routerLink="/newForm">NewForm</a>
+  <router-outlet></router-outlet>
 </main>
