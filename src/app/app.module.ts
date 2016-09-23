@@ -6,7 +6,7 @@ import { FormComponent } from './model/form.component';
 
 import { FeToolbarComponent } from './fe-toolbar.component';
 import { FeListComponent } from './fe-list.component';
-import { NewFormComponent } from './newForm.component';
+import { NewFormComponent } from './new-form.component';
 
 import { routing } from './app.routing';
 

@@ -1,9 +1,15 @@
 import { ModuleWithProviders } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { NewFormComponent } from './newForm.component';
+import { AppComponent } from './app.component';
+import { NewFormComponent } from './new-form.component';
 
 const appRoutes: Routes = [
+//    {
+//        path: '',
+//        component: AppComponent,
+//        pathMatch: 'full'
+//    },
     {
 //        path: 'newForm/:id',
         path: 'newForm',
