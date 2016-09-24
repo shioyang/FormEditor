@@ -1,4 +1,6 @@
 <div class="feList">
+  <fe-toolbar (emitter)="onAction($event)"></fe-toolbar>
+  <div>{{action}}</div>
   <table>
     <thead>
       <tr><th>ID</th><th>Name</th><th>Age</th></tr>

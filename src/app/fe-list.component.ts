@@ -15,6 +15,7 @@ export class FeListComponent implements OnInit {
   formData: FormData[];
   formDataService: FormDataService;
   selectedData: FormData = null;
+  action: string = "";
 
   constructor(private fds: FormDataService){
     this.formDataService = fds;
@@ -30,5 +31,9 @@ export class FeListComponent implements OnInit {
 
   onSelect(d: FormData): void {
     this.selectedData = d;
+  }
+
+  onAction(action: string) {
+    this.action = action;
   }
 }

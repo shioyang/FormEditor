@@ -7,10 +7,4 @@ import '../../public/css/styles.css';
   templateUrl: './template/app.component.html',
   styleUrls: ['./style/app.component.css']
 })
-export class AppComponent {
-  action: string = "";
-
-  onAction(event: string): void {
-    this.action = event;
-  }
-}
+export class AppComponent { }
