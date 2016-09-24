@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
     selector: 'new-form',
-    templateUrl: './new-form.component.html',
+    templateUrl: './template/new-form.component.html',
     styles: []
 })
 export class NewFormComponent {

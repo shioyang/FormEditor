@@ -7,8 +7,8 @@ import '../../public/css/styles.css';
 
 @Component({
   selector: 'fe-list',
-  templateUrl: './fe-list.component.html',
-  styleUrls: ['./fe-list.component.css'],
+  templateUrl: './template/fe-list.component.html',
+  styleUrls: ['./style/fe-list.component.css'],
   providers: [ FormDataService ]
 })
 export class FeListComponent implements OnInit {
