@@ -2,14 +2,15 @@ import { ModuleWithProviders } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
+import { FeInfoComponent } from './fe-info.component';
 import { NewFormComponent } from './new-form.component';
 
 const appRoutes: Routes = [
-//    {
-//        path: '',
-//        component: AppComponent,
-//        pathMatch: 'full'
-//    },
+    {
+        path: '',
+        component: FeInfoComponent,
+        pathMatch: 'full'
+    },
     {
 //        path: 'newForm/:id',
         path: 'newForm',
